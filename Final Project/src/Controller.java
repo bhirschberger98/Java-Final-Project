@@ -1,13 +1,34 @@
+import java.awt.Button;
+import java.awt.TextField;
 import java.io.File;
 import java.util.Random;
 
 import javafx.fxml.FXML;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
+import javafx.scene.text.Text;
 
 public class Controller {
 	private Card[] cards=new Card[52];
     
+    @FXML
+    private Button Refresh;
+
+    @FXML
+    private Button Verify;
+
+    @FXML
+    private Button Solution;
+
+    @FXML
+    private TextField Output;
+
+    @FXML
+    private TextField Input;
+
+    @FXML
+    private Text Expression;
+	
     @FXML
     private ImageView card1=new ImageView();
 
