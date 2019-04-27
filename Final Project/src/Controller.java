@@ -1,10 +1,10 @@
-import java.awt.Button;
-import java.awt.TextField;
-import java.awt.event.ActionEvent;
 import java.io.File;
 import java.util.Random;
 
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.scene.control.Button;
+import javafx.scene.control.TextField;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.text.Text;
@@ -76,7 +76,7 @@ public class Controller {
 		card3.setImage(cards[new Random().nextInt(51)].getImage());
 		card4.setImage(cards[new Random().nextInt(51)].getImage());
 	}
-	public void CheckExpression(ActionEvent event) {
+	public void checkExpression(ActionEvent event) {
 		if (Input.getText() == null)  				// In case the user does not enter any sort of expression
 		{
 			Output.setText("Please Enter An Expression");
