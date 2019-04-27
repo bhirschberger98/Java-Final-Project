@@ -9,9 +9,9 @@
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
    <children>
       <Button fx:id="Refresh" layoutX="318.0" layoutY="25.0" mnemonicParsing="false" onAction="#displayCards" text="Refresh" />
-      <Button fx:id="Verify" layoutX="322.0" layoutY="245.0" mnemonicParsing="false" onAction="#CheckExpression" text="Verify" />
+      <Button fx:id="Verify" layoutX="322.0" layoutY="245.0" mnemonicParsing="false" onAction="#checkExpression" text="Verify" />
       <Button fx:id="Solution" layoutX="14.0" layoutY="25.0" mnemonicParsing="false" text="Find a Solution" />
-      <TextField fx:id="Output" layoutX="126.0" layoutY="25.0" />
+      <TextField fx:id="Output" layoutX="126.0" layoutY="25.0" prefHeight="25.0" prefWidth="177.0" />
       <TextField fx:id="Input" layoutX="149.0" layoutY="245.0" />
       <Text fx:id="Expression" layoutX="29.0" layoutY="262.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter an experssion" />
       <ImageView fx:id="card1" fitHeight="106.0" fitWidth="77.0" layoutX="23.0" layoutY="97.0" pickOnBounds="true" preserveRatio="true" />

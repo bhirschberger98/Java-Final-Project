@@ -1,5 +1,6 @@
 import java.awt.Button;
 import java.awt.TextField;
+import java.awt.event.ActionEvent;
 import java.io.File;
 import java.util.Random;
 
@@ -74,5 +75,19 @@ public class Controller {
 		card2.setImage(cards[new Random().nextInt(51)].getImage());
 		card3.setImage(cards[new Random().nextInt(51)].getImage());
 		card4.setImage(cards[new Random().nextInt(51)].getImage());
+	}
+	public void CheckExpression(ActionEvent event) {
+		if (Input.getText() == null)  				// In case the user does not enter any sort of expression
+		{
+			Output.setText("Please Enter An Expression");
+		}
+		else if (Input.getText() == "24")
+		{
+			Output.setText("Correct!");
+		}
+		else
+		{
+			Output.setText("Incorrect!");
+		}
 	}
 }
