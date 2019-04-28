@@ -70,12 +70,14 @@ public class Controller {
 		}
 
 	}
+	
 	public void displayCards() {
 		card1.setImage(cards[new Random().nextInt(51)].getImage());
 		card2.setImage(cards[new Random().nextInt(51)].getImage());
 		card3.setImage(cards[new Random().nextInt(51)].getImage());
 		card4.setImage(cards[new Random().nextInt(51)].getImage());
 	}
+	
 	public void checkExpression(ActionEvent event) {
 		if (Input.getText() == null)  				// In case the user does not enter any sort of expression
 		{
@@ -83,11 +85,15 @@ public class Controller {
 		}
 		else if (Input.getText() == "24")
 		{
-			Output.setText("Correct!");
+			Output.setText("Correct! The Expression Equals 24"); // If the expression does equal 24
 		}
 		else
 		{
-			Output.setText("Incorrect!");
+			Output.setText("Incorrect! The Expression Does Not Equal 24"); // If the expression does not equal 24
 		}
+	}
+	
+	public void findSolution(ActionEvent event) {
+		displayCards();
 	}
 }
