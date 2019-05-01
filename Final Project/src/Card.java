@@ -1,13 +1,14 @@
 import javafx.scene.image.Image;
 
+
 public class Card {
-	private int value;
+	private Integer value;
 	private Image image;
 	public Card(Image image,int value) {
 		this.value=value;
 		this.image=image;
 	}
-	public int getValue() {
+	public Integer getValue() {
 		return value;
 	}
 	public Image getImage() {
@@ -16,5 +17,6 @@ public class Card {
 	@Override
 	public String toString() {
 		return "Value:"+value+ ", Image: "+image.impl_getUrl();
+		
 	}
 }
