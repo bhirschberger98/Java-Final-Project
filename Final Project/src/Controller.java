@@ -1292,7 +1292,200 @@ public class Controller {
 									Output.setText("Try this equation: (" + b + " * " + d + " )* " + c + " * "  + a);
 								}
 
-		
+								else if ((a+d)+c+b == 24) {
+									Output.setText("Try this equation: (" + a + " + " + d + ") + " + c + " + "  + b);
+								}
+									else if ((a+d)-c+b == 24) {
+										Output.setText("Try this equation: (" + a + " + " + d + ") - " + c + " + "  + b);
+									}
+										else if ((a+d)-c-b == 24)
+										{
+											Output.setText("Try this equation: (" + a + " + " + d + ") - " + c + " - "  + b);
+										}
+										else if ((a+d)-c/b == 24)
+										{
+											Output.setText("Try this equation: (" + a + " + " + d + ") - " + c + " / "  + b);
+										}
+										else if ((a+d)-c*b == 24)
+										{
+											Output.setText("Try this equation: (" + a + " + " + d + ") - " + c + " * "  + b);
+										}
+									else if ((a+d)/c+b == 24) {
+										Output.setText("Try this equation: (" + a + " + " + d + ") / " + c + " + "  + b);
+									}
+										else if ((a+d)/c-b == 24){
+											Output.setText("Try this equation: (" + a + " + " + d + ") / " + c + " - "  + b);
+										}
+										else if ((a+d)/c/b == 24){
+											Output.setText("Try this equation: (" + a + " + " + d + ") / " + c + " / "  + b);
+										}
+										else if ((a+d)/c*b == 24){
+											Output.setText("Try this equation: (" + a + " + " + d + ") / " + c + " * "  + b);
+										}
+										
+									else if ((a+d)*c+b == 24) {
+										Output.setText("Try this equation: (" + a + " + " + d + ") * " + c + " + "  + b);
+									}
+										else if ((a+d)*c-b == 24)
+										{
+											Output.setText("Try this equation: (" + a + " + " + d + ") * " + c + " - "  + b);
+										}
+										else if ((a+d)*c/b == 24)
+										{
+											Output.setText("Try this equation: (" + a + " + " + d + ") * " + c + " / "  + b);
+										}
+										else if ((a+d)*c*b == 24)
+										{
+											Output.setText("Try this equation: (" + a + " + " + d + ") * " + c + " * "  + b);
+										}
+								
+
+								
+										else if ((a-d)+c+b == 24) {
+									Output.setText("Try this equation: (" + a + " - " + d + ") + " + c + " + "  + b);
+								}
+									else if ((a-d)-c+b == 24) {
+										Output.setText("Try this equation: (" + a + " - " + d + ") - " + c + " + "  + b);
+									}
+										else if ((a-d)-c-b == 24)
+										{
+											Output.setText("Try this equation: (" + a + " - " + d + ") - " + c + " - "  + b);
+										}
+										else if ((a-d)-c/b == 24)
+										{
+											Output.setText("Try this equation: (" + a + " - " + d + ") - " + c + " / "  + b);
+										}
+										else if ((a-d)-c*b == 24)
+										{
+											Output.setText("Try this equation: (" + a + " - " + d + ") - " + c + " * "  + b);
+										}
+									else if ((a-d)/c+b == 24) {
+										Output.setText("Try this equation: (" + a + " - " + d + ") / " + c + " + "  + b);
+									}
+										else if ((a-d)/c-b == 24){
+											Output.setText("Try this equation: (" + a + " - " + d + ") / " + c + " - "  + b);
+										}
+										else if ((a-d)/c/b == 24){
+											Output.setText("Try this equation: (" + a + " - " + d + ") / " + c + " / "  + b);
+										}
+										else if ((a-d)/c*b == 24){
+											Output.setText("Try this equation: (" + a + " - " + d + ") / " + c + " * "  + b);
+										}
+										
+									else if ((a-d)*c+b == 24) {
+										Output.setText("Try this equation: (" + a + " - " + d + ") * " + c + " + "  + b);
+									}
+										else if ((a-d)*c-b == 24)
+										{
+											Output.setText("Try this equation: (" + a + " - " + d + ") * " + c + " - "  + b);
+										}
+										else if ((a-d)*c/b == 24)
+										{
+											Output.setText("Try this equation: (" + a + " - " + d + ") * " + c + " / "  + b);
+										}
+										else if ((a-d)*c*b == 24)
+										{
+											Output.setText("Try this equation: (" + a + " - " + d + ") * " + c + " * "  + b);
+										}
+								
+								
+										else if ((a/d)+c+b == 24) {
+									Output.setText("Try this equation: (" + a + " / " + d + ") + " + c + " + "  + b);
+								}
+									else if ((a/d)-c+b == 24) {
+										Output.setText("Try this equation: (" + a + " / " + d + ") - " + c + " + "  + b);
+									}
+										else if ((a/d)-c-b == 24)
+										{
+											Output.setText("Try this equation: (" + a + " / " + d + ") - " + c + " - "  + b);
+										}
+										else if ((a/d)-c/b == 24)
+										{
+											Output.setText("Try this equation: (" + a + " / " + d + ") - " + c + " / "  + b);
+										}
+										else if ((a/d)-c*b == 24)
+										{
+											Output.setText("Try this equation: (" + a + " / " + d + ") - " + c + " * "  + b);
+										}
+									else if ((a/d)/c+b == 24) {
+										Output.setText("Try this equation: (" + a + " / " + d + ") / " + c + " + "  + b);
+									}
+										else if ((a/d)/c-b == 24){
+											Output.setText("Try this equation: (" + a + " / " + d + ") / " + c + " - "  + b);
+										}
+										else if ((a/d)/c/b == 24){
+											Output.setText("Try this equation: (" + a + " / " + d + ") / " + c + " / "  + b);
+										}
+										else if ((a/d)/c*b == 24){
+											Output.setText("Try this equation: (" + a + " / " + d + ") / " + c + " * "  + b);
+										}
+										
+									else if ((a/d)*c+b == 24) {
+										Output.setText("Try this equation: (" + a + " / " + d + ") * " + c + " + "  + b);
+									}
+										else if ((a/d)*c-b == 24)
+										{
+											Output.setText("Try this equation: (" + a + " / " + d + ") * " + c + " - "  + b);
+										}
+										else if ((a/d)*c/b == 24)
+										{
+											Output.setText("Try this equation: (" + a + " / " + d + ") * " + c + " / "  + b);
+										}
+										else if ((a/d)*c*b == 24)
+										{
+											Output.setText("Try this equation: (" + a + " / " + d + ") * " + c + " * "  + b);
+										}
+								
+
+								
+								
+										else if ((a*d)+c+b == 24) {
+									Output.setText("Try this equation: (" + a + " * " + d + ") + " + c + " + "  + b);
+								}
+									else if ((a*d)-c+b == 24) {
+										Output.setText("Try this equation: (" + a + " * " + d + ") - " + c + " + "  + b);
+									}
+										else if ((a*d)-c-b == 24)
+										{
+											Output.setText("Try this equation: (" + a + " * " + d + ") - " + c + " - "  + b);
+										}
+										else if ((a*d)-c/b == 24)
+										{
+											Output.setText("Try this equation: (" + a + " * " + d + ") - " + c + " / "  + b);
+										}
+										else if ((a*d)-c*b == 24)
+										{
+											Output.setText("Try this equation: (" + a + " * " + d + ") - " + c + " * "  + b);
+										}
+									else if ((a*d)/c+b == 24) {
+										Output.setText("Try this equation: (" + a + " * " + d + ") / " + c + " + "  + b);
+									}
+										else if ((a*d)/c-b == 24){
+											Output.setText("Try this equation: (" + a + " * " + d + ") / " + c + " - "  + b);
+										}
+										else if ((a*d)/c/b == 24){
+											Output.setText("Try this equation: (" + a + " * " + d + ") / " + c + " / "  + b);
+										}
+										else if ((a*d)/c*b == 24){
+											Output.setText("Try this equation: (" + a + " * " + d + ") / " + c + " * "  + b);
+										}
+										
+									else if ((a*d)*c+b == 24) {
+										Output.setText("Try this equation: (" + a + " * " + d + ") * " + c + " + "  + b);
+									}
+										else if ((a*d)*c-b == 24)
+										{
+											Output.setText("Try this equation: (" + a + " * " + d + ") * " + c + " - "  + b);
+										}
+										else if ((a*d)*c/b == 24)
+										{
+											Output.setText("Try this equation: (" + a + " * " + d + ") * " + c + " / "  + b);
+										}
+										else if ((a*d)*c*b == 24)
+										{
+											Output.setText("Try this equation: (" + a + " * " + d + " )* " + c + " * "  + b);
+										}
+
 		
 		
 		
